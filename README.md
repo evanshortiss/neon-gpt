@@ -29,13 +29,13 @@ resume following these instructions.
     * Starters: `List the projects in my Neon account`
 1. Run `curl http://localhost:3000/swagger/json | jq > spec.json` to obtain an OpenAPI Spec.
 1. Add the following block as a top-level key in the OpenAPI Spec:
-        ```
-            "servers": [
-                {
-                    "url": "https://evanshortiss.loca.lt"
-                }
-            ],
-        ```
+    ```
+        "servers": [
+            {
+                "url": "https://evanshortiss.loca.lt"
+            }
+        ],
+    ```
 1. Click **Create new action** at the bottom of the UI and enter:
     * Authentication: `None`
     * Schema: The contents of your _spec.json_.
