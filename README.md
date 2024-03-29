@@ -1,7 +1,7 @@
 # Neon GPT
 
 A REST API that can be used by a [custom GPT](https://openai.com/blog/introducing-gpts)
-to manage resources in your [Neon](https://neon.tech/) account. 
+to manage resources in your [Neon](https://neon.tech/github) account. 
 
 ![The Neon GPT working on chat.openai.com](/images/gpt.png)
 
